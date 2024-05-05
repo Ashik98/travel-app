@@ -14,7 +14,7 @@ const index = () => {
     
       <NavbarTwo />
       
-
+{/* this is the navbar */}
       <MainBanner />
 
       <OurWorks />
