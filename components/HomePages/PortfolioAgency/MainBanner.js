@@ -29,7 +29,7 @@ const MainBanner = () => {
           <div 
             className="hero-banner overly" 
             style={{ 
-              backgroundImage: `url(/images/home-image1.webp.jpg)` 
+              backgroundImage: `url(/images/wall1.jpg)` 
             }}
           >
             <div className="d-table">
@@ -45,7 +45,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Himalayas Calling You
+                          Himalayas Calling !!!
                         </h1>
 
                         <p
@@ -91,7 +91,7 @@ const MainBanner = () => {
           <div 
             className="hero-banner overly"
             style={{ 
-              backgroundImage: `url(/images/home-image2.jpg)` 
+              backgroundImage: `url(/images/wall2.jpg)` 
             }}
           >
             <div className="d-table">
@@ -107,7 +107,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Web Development
+                          Explore the Tea Hills of Munnar
                         </h1>
 
                         <p
@@ -153,7 +153,7 @@ const MainBanner = () => {
           <div 
             className="hero-banner overly"
             style={{ 
-              backgroundImage: `url(/images/hero-banner10.jpg)` 
+              backgroundImage: `url(/images/wall3.jpg)` 
             }}
           >
             <div className="d-table">
@@ -169,7 +169,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          React Development
+                          Mud House Stay in Vattavada
                         </h1>
 
                         <p
