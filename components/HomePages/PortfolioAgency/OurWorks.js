@@ -31,34 +31,34 @@ const ourWorksData = [
     viewDetails: "/portfolio/portfolio-details/",
     aosDelay: "400",
   },
-  {
-    image: "/images/works/work5.jpg",
-    title: "Examples of different types of sprints",
-    category: "Marketing & Reporting",
-    viewDetails: "/portfolio/portfolio-details/",
-    aosDelay: "500",
-  },
-  {
-    image: "/images/works/work6.jpg",
-    title: "Redesigning the New York times app",
-    category: "App Development",
-    viewDetails: "/portfolio/portfolio-details/",
-    aosDelay: "600",
-  },
-  {
-    image: "/images/works/work7.jpg",
-    title: "Design the Web, Mobile, and eCommerce",
-    category: "SEO Optimization",
-    viewDetails: "/portfolio/portfolio-details/",
-    aosDelay: "700",
-  },
-  {
-    image: "/images/works/work8.jpg",
-    title: "Redesigning the New York times app",
-    category: "Digital Marketing",
-    viewDetails: "/portfolio/portfolio-details/",
-    aosDelay: "800",
-  },
+  // {
+  //   image: "/images/works/work5.jpg",
+  //   title: "Examples of different types of sprints",
+  //   category: "Marketing & Reporting",
+  //   viewDetails: "/portfolio/portfolio-details/",
+  //   aosDelay: "500",
+  // },
+  // {
+  //   image: "/images/works/work6.jpg",
+  //   title: "Redesigning the New York times app",
+  //   category: "App Development",
+  //   viewDetails: "/portfolio/portfolio-details/",
+  //   aosDelay: "600",
+  // },
+  // {
+  //   image: "/images/works/work7.jpg",
+  //   title: "Design the Web, Mobile, and eCommerce",
+  //   category: "SEO Optimization",
+  //   viewDetails: "/portfolio/portfolio-details/",
+  //   aosDelay: "700",
+  // },
+  // {
+  //   image: "/images/works/work8.jpg",
+  //   title: "Redesigning the New York times app",
+  //   category: "Digital Marketing",
+  //   viewDetails: "/portfolio/portfolio-details/",
+  //   aosDelay: "800",
+  // },
   // {
   //   image: "/images/works/work9.jpg",
   //   title: "We provide any type of app development",
@@ -133,7 +133,7 @@ const OurWorks = () => {
           </div>
  
           {/* Pagination */}
-          <div className="pagination-area">
+          {/* <div className="pagination-area">
             <a className="prev page-numbers">
               <i className="fa-solid fa-angles-left"></i>
             </a>
@@ -149,7 +149,7 @@ const OurWorks = () => {
             <a className="next page-numbers">
               <i className="fa-solid fa-angles-right"></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
