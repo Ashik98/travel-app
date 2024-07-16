@@ -11,7 +11,7 @@ const ContactUs = () => {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Contact Us" BGImage="/images/page-banner1.jpg" />
+      <PageBanner pageTitle="We are VNeu Contact US" BGImage="/images/wall7.jpg" />
 
       <ContactInfo />
 
