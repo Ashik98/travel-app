@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Image from "next/image";
 
-import aboutImg from "../../public/images/about-img2.jpg";
+import aboutImg from "../../public/images/earthe10.jpg";
 
 const AboutContent = () => {
   const [toggler, setToggler] = useState(false);
@@ -42,39 +42,35 @@ const AboutContent = () => {
                 <div className="section-title">
                   <h2>About Us</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                  We are VNEU Holidays, a women entrepreneur-run tent stay nestled in the heart of Vattavada. We are two women who, after many years in the IT field, decided to follow our hearts and embrace our passion for travel and hospitality. Our journey led us to the enchanting village of Vattavada, a place that captured our hearts with its wild beauty and serene landscapes
                   </p>
                 </div>
 
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis..
+                  We aren't just another accommodation; we're a story waiting to be unveiled with you. Our tent stays built on the pillars of safety, comfort, and, most importantly, delicious, wholesome food. We cater to everyone – women, couples, or groups – because for us, human connection transcends gender. At VNEU Holidays, we believe in the power of stories and human connections. Every guest who steps through our doors is welcomed with open arms and treated like family. We cherish the moments spent sharing tales, laughter, and experiences around the campfire, 
+                  creating bonds that transcend gender, age, and background...
                   </p>
                 </div>
 
-                <div className="about-text">
+                {/* <div className="about-text">
                   <h4>Our History</h4>
                   <p>
                     But I must explain to you how all this mistaken idea of
                     denouncing pleasure and praising pain was born and I will
                     give you a complete account of the.
                   </p>
-                </div>
+                </div> */}
 
                 <div className="about-text">
                   <h4>Our Mission</h4>
                   <ul>
                     <li>
-                      <i className="fa-solid fa-circle-check"></i>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      {/* <i className="fa-solid fa-circle-check"></i> */}
+                      Our mission is to offer a comfortable stay that feels like a home away from home. We encourage you to share your stories with us, as together we can create new memories for you to cherish and share with others upon your return. Let us help you leave behind any unwanted moments by exploring the beauty and tranquility of this paradise.
                     </li>
-                    <li>
+                    {/* <li>
                       <i className="fa-solid fa-circle-check"></i>
                       It is a long established fact that a reader will be
                       distracted by the readable content of a page when looking
@@ -85,7 +81,7 @@ const AboutContent = () => {
                       Contrary to popular belief, Lorem Ipsum is not simply
                       random text. It has roots in a piece of classical Latin
                       literature.
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

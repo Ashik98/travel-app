@@ -100,6 +100,39 @@ const NavbarTwo = () => {
                     className="nav-link"
                     onClick={(e) => e.preventDefault()}
                   >
+                    Packages
+                    </Link>
+                     <i className="fa-solid fa-angle-down"></i>
+                     <ul className="dropdown-menu mega-dropdown-menu">
+                    <li className="nav-item">
+                      <Link
+                        href="/earthernescape/"
+                        className={`nav-link ${currentPath == "/earthernescape/" && "active"}`}
+                      >
+                        Earthen Escape 
+                      </Link>
+
+                      <Link
+                        href="/havenEscape/"
+                        className={`nav-link ${
+                          currentPath == "/havenescape/" && "active"
+                        }`}
+                      >
+                         Haven Escape 
+                      </Link>
+                        
+                    </li>
+                  </ul>   
+
+                 
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    href="#"
+                    className="nav-link"
+                    onClick={(e) => e.preventDefault()}
+                  >
                     Gallery
                      {/* <i className="fa-solid fa-angle-down"></i> */}  
                   </Link>

@@ -29,7 +29,7 @@ const MainBanner = () => {
           <div 
             className="hero-banner overly" 
             style={{ 
-              backgroundImage: `url(/images/wall1.jpg)` 
+              backgroundImage: `url(/images/earthe11.jpg)` 
             }}
           >
             <div className="d-table">
@@ -45,7 +45,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Himalayas Calling !!!
+                          Embrace Nature's Whisper at Vattavada
                         </h1>
 
                         <p
@@ -55,9 +55,8 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Allow the mesmerizing beauty of this paradise to weave a tale of an unforgettable      
+                          journey, enriched by our exceptional tent accommodations
                         </p>
 
                         <div
@@ -107,7 +106,8 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Explore the Tea Hills of Munnar
+                          Where Nature Meets Comfort!
+
                         </h1>
 
                         <p
@@ -117,9 +117,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                          Let the beauty of this paradise unfold as you embark on an unforgettable journey,  complemented by our exceptional tent stays.
                         </p>
 
                         <div
@@ -153,7 +151,7 @@ const MainBanner = () => {
           <div 
             className="hero-banner overly"
             style={{ 
-              backgroundImage: `url(/images/wall3.jpg)` 
+              backgroundImage: `url(/images/earthe7.jpg)` 
             }}
           >
             <div className="d-table">
@@ -169,7 +167,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Mud House Stay in Vattavada
+                          Cozy Tent Stay in Vattavada
                         </h1>
 
                         <p
@@ -179,9 +177,7 @@ const MainBanner = () => {
                               : "opacityZero"
                           }
                         >
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.
+                         Escape to the tranquil landscapes of Vattavada with our exclusive tent stay package, designed to offer you a blend of comfort and adventure.
                         </p>
 
                         <div

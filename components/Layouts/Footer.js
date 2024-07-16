@@ -31,9 +31,7 @@ Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                We are VNEU Holidays, a women entrepreneur-run tent stay nestled in the heart of Vattavada. We are two women who, after many years in the IT field, decided to follow our hearts and embrace our passion for travel and hospitality. Our journey led us to the enchanting village of Vattavada, a place that captured our hearts with its wild beauty and serene landscapes
                 </p>
 
                 <ul className="social-links">
@@ -151,19 +149,19 @@ Footer = () => {
                 <ul className="get-in-touch">
                   <li>
                     <i className="fa-solid fa-location-dot"></i>
-                    <a href="https://www.google.com/maps?q=2750+Quadra+Street,+Victoria,+Canada"> 2750 Quadra Street
-                    Victoria, Canada.</a>
+                    <a href="https://www.google.com/maps?q=2750+Quadra+Street,+Victoria,+Canada">Vneu
+                    Vattavada, KERALA.</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a> 
+                    <a href="tel:+919567495429">+91 9567495429</a> 
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+919567495429">+919567495429</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:contact@ashiktom.me">hello@vneu.com</a>
+                    <a href="mailto:contact@ashiktom.me">support@vneu.com</a>
                   </li>
                 </ul>
               </div>
