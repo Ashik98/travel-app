@@ -13,10 +13,10 @@ const ContactInfo = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@pungent.com">admin@pungent.com</a>
+                  <a href="mailto:contact@ashiktom.me">admin@vneu.com</a>
                 </p>
                 <p>
-                  <a href="mailto:info@pungent.com">info@pungent.com</a>
+                  <a href="mailto:contact@ashiktom.me">info@vneu.com</a>
                 </p>
               </div>
             </div>
@@ -28,7 +28,7 @@ const ContactInfo = () => {
                 </div>
                 <h3>Visit Here</h3>
                 <p>
-                  27 Division St, New York, <br /> NY 10002, USA
+                  Vattavada, Munnar, <br /> KERALA 686652, IND
                 </p>
               </div>
             </div>
@@ -40,10 +40,10 @@ const ContactInfo = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+1234567890">+123 456 7890</a>
+                  <a href="tel:+919567495429">+91 9567495429</a>
                 </p>
                 <p>
-                  <a href="tel:+2414524526">+241 452 4526</a>
+                  <a href="tel:+919567495429">+91 9567495429</a>
                 </p>
               </div>
             </div>

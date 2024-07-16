@@ -4,25 +4,40 @@ import Image from "next/image";
 
 const ourWorksData = [
   {
-    image: "/images/works/work1.jpg",
-    title: "Designing a better cinema experience",
-    category: "Development",
-    viewDetails: "/portfolio/portfolio-details/",
+    image: "/images/vat1.jpg",
+    title: "Earthen Escape",
+    category: "Vattavada",
+    viewDetails: "/earthernescape/",
     aosDelay: "100",
+    sentences: [
+      "Experience the rustic charm of Vattavada.",
+      "Reconnect with nature in our Earthen Escape.",
+      "A serene getaway from the hustle and bustle."
+    ],
   },
   {
-    image: "/images/works/work2.jpg",
-    title: "Building design process within teams",
-    category: "Web Design",
-    viewDetails: "/portfolio/portfolio-details/",
+    image: "/images/vat2.jpg",
+    title: "Haven Escape",
+    category: "Vattavada",
+    viewDetails: "/havenEscape/",
     aosDelay: "200",
+    sentences: [
+      "Find your haven in the heart of nature.",
+      "Escape to tranquility with Haven Escape.",
+      "Your perfect retreat in Vattavada."
+    ],
   },
   {
-    image: "/images/works/work3.jpg",
-    title: "How intercom brings play into their design process",
-    category: "eCommerce",
-    viewDetails: "/portfolio/portfolio-details/",
+    image: "/images/vat3.jpg",
+    title: "Valley Escape",
+    category: "The scenic and serene nature of Vattavada",
+    viewDetails: "/havenEscape/",
     aosDelay: "300",
+    sentences: [
+      "Discover the beauty of the valley.",
+      "A peaceful escape awaits you.",
+      "Valley Escape offers stunning views."
+    ],
   },
   {
     image: "/images/works/work4.jpg",
@@ -30,63 +45,12 @@ const ourWorksData = [
     category: "Email Marketing",
     viewDetails: "/portfolio/portfolio-details/",
     aosDelay: "400",
+    sentences: [
+      "Streamline your tasks with our app.",
+      "Productivity redefined.",
+      "Stay on top of your to-do list."
+    ],
   },
-  // {
-  //   image: "/images/works/work5.jpg",
-  //   title: "Examples of different types of sprints",
-  //   category: "Marketing & Reporting",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "500",
-  // },
-  // {
-  //   image: "/images/works/work6.jpg",
-  //   title: "Redesigning the New York times app",
-  //   category: "App Development",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "600",
-  // },
-  // {
-  //   image: "/images/works/work7.jpg",
-  //   title: "Design the Web, Mobile, and eCommerce",
-  //   category: "SEO Optimization",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "700",
-  // },
-  // {
-  //   image: "/images/works/work8.jpg",
-  //   title: "Redesigning the New York times app",
-  //   category: "Digital Marketing",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "800",
-  // },
-  // {
-  //   image: "/images/works/work9.jpg",
-  //   title: "We provide any type of app development",
-  //   category: "App Development",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "900",
-  // },
-  // {
-  //   image: "/images/works/work10.jpg",
-  //   title: "We provide any type of marketing support",
-  //   category: "SEO Marketing",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "1000",
-  // },
-  // {
-  //   image: "/images/works/work11.jpg",
-  //   title: "We provide any type of Email Marketing",
-  //   category: "Email Marketing",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "1100",
-  // },
-  // {
-  //   image: "/images/works/work12.jpg",
-  //   title: "We provide any type of Marketing & Reporting",
-  //   category: "Marketing & Reporting",
-  //   viewDetails: "/portfolio/portfolio-details/",
-  //   aosDelay: "1200",
-  // },
 ];
 
 const OurWorks = () => {
@@ -95,10 +59,11 @@ const OurWorks = () => {
       <section className="case-studies-area lg-portfolio ptb-100">
         <div className="container-fluid">
           <div className="section-title">
-            <h2>Our Projects</h2>
+            <h2>Our Packages</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Our mission is to offer a comfortable stay that feels like a home away from home. We encourage you to share your stories with us, 
+            as together we can create new memories for you to cherish and share with others upon your return. 
+            Let us help you leave behind any unwanted moments by exploring the beauty and tranquility of this paradise
             </p>
           </div>
 
@@ -124,7 +89,7 @@ const OurWorks = () => {
                       </h3>
 
                       <Link href={value.viewDetails} className="custom-btn">
-                        View Details
+                        Read More
                       </Link>
                     </div>
                   </div>
@@ -155,5 +120,4 @@ const OurWorks = () => {
     </>
   );
 };
-
 export default OurWorks;
